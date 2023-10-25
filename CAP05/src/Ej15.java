@@ -12,10 +12,10 @@ public class Ej15 {
                 System.out.println(base+" elevado a "+i+" es igual a "+resultado);
             }
         else if (exp <0){
-            for (int i=0;i < -exp+1;i++){
+            for (int i=1;i < -exp+1;i++){
                 resultado*=base;
                 resultado = 1/resultado;
-                System.out.println(base+" elevado a "+i+" es igual a "+resultado);
+                System.out.println(base+" elevado a -"+i+" es igual a "+resultado);
             }
         }
     }
