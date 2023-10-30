@@ -7,7 +7,11 @@ public class Ej20 {
             for(int j=1;j<=(altura-i);j++){
                 System.out.print(" ");
             }
-            for(int j=1;j<=(2*i-1);j++){
+            System.out.print(caracter);
+            if (i>1){
+                for(int j=1;j<=(2*i-1);j++){
+                    System.out.print("");
+                }
                 System.out.print(caracter);
             }
             System.out.println("");
@@ -20,6 +24,5 @@ public class Ej20 {
         System.out.print("Introduzca el carácter de relleno: ");
         String caracter = ""+System.console().readLine().charAt(0);
         piramide(altura, caracter, false);
-        piramide(altura, caracter, true);
     }
 }
