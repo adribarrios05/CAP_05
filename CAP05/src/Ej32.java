@@ -1,35 +1,53 @@
 public class Ej32 {
-    public static int longitud(int valor){
-        int retorno = 0;
+    public static long voltea (long valor){
+        long alreves = 0;
         boolean salida = false;
         while(!salida){
-            retorno++;
+            int digito = (int)valor%10;
+            System.out.print(digito);
             if(valor<10)
                 salida = true;
             else
                 valor = valor/10;
         }
-        return retorno;
+        return alreves;
     }
-    public static void imprimePares(int valor){
+    public static String imprimePares(long valor){
+        String res="";
         boolean salida = false;
-        int numerosPares = 0;
         while(!salida){
-            int actual = valor*10;
-            if (actual%2==0)
-                System.out.print(actual+" ");
-            numerosPares++;
-            if(valor<10)
-                salida = true;
+            int digito = (int)(valor%10);
+            if(digito%2 == 0)
+                res+=digito;
             else
-                valor = valor*10;
+                valor = valor/10;
+            }
+        return res;
         }
+    public static long solicitaValor(){
+        boolean validado = false;
+        long valor = 0;
+        while(!validado){
+            try {
+                System.out.print("Por favor, introduzca un número entero: ");
+                valor = Integer.parseInt(System.console().readLine());
+                validado = true;
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+        }
+        return valor;
+    }
+    public static int sumarPares(long valor){
+        int suma = 0;
+        boolean salida = false;
+        return suma;
     }
     
     public static void main(String[] args) {
-        System.out.print("introduzca un número entero: ");
-        int valor = Integer.parseInt(System.console().readLine());
-        imprimePares(valor);
-        longitud(valor);
+        long valor = solicitaValor();
+        valor = voltea(valor);
+        System.out.printf("Digitos pares: %s%n", imprimePares(valor));
+        System.out.printf("Suma de los dígitos pares: %d", sumarPares(valor));
     }
 }
