@@ -45,7 +45,7 @@ public class Ej37 {
                     for(int j=0;j<=digito-1;j++){
                         System.out.print("|");
                     }
-                    if (i< digito) {
+                    if (i < digito) {
                         System.out.print("-");
                     }
                 }
