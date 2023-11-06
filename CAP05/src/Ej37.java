@@ -36,24 +36,24 @@ public class Ej37 {
             else
                 validado = true;
                 boolean salida = false;
-        do {
+        while(!salida) {
             if(valor>=0){
                 digito=valor%10;
-                for(int i=0;i<=digito-1;i++){
+                for(int i=1;i<=digito;i++){
                     digito = valor%10;
                     valor = valor/10;
-                    for(int j=0;j<=digito-1;j++){
+                    for(int j=1;j<=digito;j++){
                         System.out.print("|");
                     }
-                    if (i < digito) {
+                    if (i <= digito && valor>0) {
                         System.out.print("-");
                     }
                 }
                 
-            } else {
+            } 
+            else
                 salida = true;
-            }
-        } while(!salida);
+        }
         }
     }
 }

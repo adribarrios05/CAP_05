@@ -6,8 +6,6 @@ public class Ej30 {
                 System.out.print("Hora: ");
                 int horaIni = Integer.parseInt(System.console().readLine());
                 switch (diaIni) {
-                    case "lunes":
-                        
                         break;
                     case "martes":
                         
@@ -36,6 +34,7 @@ public class Ej30 {
                     default:
                     break;
                 }
+                return "a";
     }
     public static int solicitarHora(){
 
