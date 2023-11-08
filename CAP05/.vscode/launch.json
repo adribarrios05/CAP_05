@@ -1,0 +1,392 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ej58",
+            "request": "launch",
+            "mainClass": "Ej58",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ej1",
+            "request": "launch",
+            "mainClass": "Ej1",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej10",
+            "request": "launch",
+            "mainClass": "Ej10",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej11",
+            "request": "launch",
+            "mainClass": "Ej11",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej12",
+            "request": "launch",
+            "mainClass": "Ej12",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej13",
+            "request": "launch",
+            "mainClass": "Ej13",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej14",
+            "request": "launch",
+            "mainClass": "Ej14",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej15",
+            "request": "launch",
+            "mainClass": "Ej15",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej16",
+            "request": "launch",
+            "mainClass": "Ej16",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej17",
+            "request": "launch",
+            "mainClass": "Ej17",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej18",
+            "request": "launch",
+            "mainClass": "Ej18",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej19",
+            "request": "launch",
+            "mainClass": "Ej19",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej2",
+            "request": "launch",
+            "mainClass": "Ej2",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej20",
+            "request": "launch",
+            "mainClass": "Ej20",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej21",
+            "request": "launch",
+            "mainClass": "Ej21",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej22",
+            "request": "launch",
+            "mainClass": "Ej22",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej23",
+            "request": "launch",
+            "mainClass": "Ej23",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej24",
+            "request": "launch",
+            "mainClass": "Ej24",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej25",
+            "request": "launch",
+            "mainClass": "Ej25",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej26",
+            "request": "launch",
+            "mainClass": "Ej26",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej27",
+            "request": "launch",
+            "mainClass": "Ej27",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej28",
+            "request": "launch",
+            "mainClass": "Ej28",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej29",
+            "request": "launch",
+            "mainClass": "Ej29",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej3",
+            "request": "launch",
+            "mainClass": "Ej3",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej30",
+            "request": "launch",
+            "mainClass": "Ej30",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej31",
+            "request": "launch",
+            "mainClass": "Ej31",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej32",
+            "request": "launch",
+            "mainClass": "Ej32",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej33",
+            "request": "launch",
+            "mainClass": "Ej33",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej34",
+            "request": "launch",
+            "mainClass": "Ej34",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej35",
+            "request": "launch",
+            "mainClass": "Ej35",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej36",
+            "request": "launch",
+            "mainClass": "Ej36",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej37",
+            "request": "launch",
+            "mainClass": "Ej37",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej4",
+            "request": "launch",
+            "mainClass": "Ej4",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej40",
+            "request": "launch",
+            "mainClass": "Ej40",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej41",
+            "request": "launch",
+            "mainClass": "Ej41",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej42",
+            "request": "launch",
+            "mainClass": "Ej42",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej43",
+            "request": "launch",
+            "mainClass": "Ej43",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej44",
+            "request": "launch",
+            "mainClass": "Ej44",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej45",
+            "request": "launch",
+            "mainClass": "Ej45",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej46",
+            "request": "launch",
+            "mainClass": "Ej46",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej47",
+            "request": "launch",
+            "mainClass": "Ej47",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej48",
+            "request": "launch",
+            "mainClass": "Ej48",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej49",
+            "request": "launch",
+            "mainClass": "Ej49",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej50",
+            "request": "launch",
+            "mainClass": "Ej50",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej51",
+            "request": "launch",
+            "mainClass": "Ej51",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej52",
+            "request": "launch",
+            "mainClass": "Ej52",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej53",
+            "request": "launch",
+            "mainClass": "Ej53",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej54",
+            "request": "launch",
+            "mainClass": "Ej54",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej55",
+            "request": "launch",
+            "mainClass": "Ej55",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej56",
+            "request": "launch",
+            "mainClass": "Ej56",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej6",
+            "request": "launch",
+            "mainClass": "Ej6",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej7",
+            "request": "launch",
+            "mainClass": "Ej7",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej8",
+            "request": "launch",
+            "mainClass": "Ej8",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej9",
+            "request": "launch",
+            "mainClass": "Ej9",
+            "projectName": "CAP05_a1044a25"
+        }
+    ]
+}

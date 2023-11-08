@@ -5,7 +5,7 @@ public class Ej40 {
         for(int i = 1; i<=altura; i++){
             for(int j = 1; j<=altura; j++){
                 if(i<=(altura/2+1) && (((j==(altura/2+1) - (i-1))) || (j==(altura/2+1) + (i-1))) || 
-                  (i>(altura/2+1) && (((j==(altura/2+1) - (altura - i))) || (j==(altura/2+1) + (altura-i)))))
+                    (i>(altura/2+1) && (((j==(altura/2+1) - (altura - i))) || (j==(altura/2+1) + (altura-i)))))
                 System.out.print("*");
                 else
                     System.out.print(" ");

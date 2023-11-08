@@ -1,6 +1,6 @@
 public class Ej51 {
     public static void main(String[] args) {
-    System.out.print("Introduzca un número entero (mayor que cero): ");
+    System.out.print("Introduzca un número entero (mayor que nueve): ");
     int numero = Integer.parseInt(System.console().readLine());
     int vuelta = 0;
     boolean numeroComido = false;

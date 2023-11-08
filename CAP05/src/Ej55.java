@@ -24,7 +24,7 @@ public class Ej55 {
         return res;
     }
     public static long dcha(long valor){
-        valor = valor*10+1;
+        /*valor = valor*10+1;*/
         valor = voltea(valor);
         int contador = 0;
         long res = 0;
@@ -34,7 +34,7 @@ public class Ej55 {
             contador++;
             valor/=10;
         }
-        return res/10;
+        return res;
     }
     public static void main(String[] args) {
         System.out.print("Introduce un número: ");

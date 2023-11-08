@@ -1,5 +1,5 @@
 public class Ej20 {
-    public static void piramide(int altura, String caracter, boolean inversa){
+    public static void piramide(int altura, boolean inversa){
         int direccion = (inversa)?-1:1;
         int primera = (inversa)?altura:1;
         int ultima = (inversa)?1:altura;
@@ -7,12 +7,13 @@ public class Ej20 {
             for(int j=1;j<=(altura-i);j++){
                 System.out.print(" ");
             }
-            System.out.print(caracter);
+            System.out.print("^");
+            String relleno = (i==ultima)?("^"):(" ");
             if (i>1){
-                for(int j=1;j<=(2*i-1);j++){
-                    System.out.print("");
+                for(int j=2;j<=(2*i-1)-1;j++){
+                    System.out.print(relleno);
                 }
-                System.out.print(caracter);
+                System.out.print("^");
             }
             System.out.println("");
         }
@@ -21,8 +22,6 @@ public class Ej20 {
         System.out.println("Este programa dibuja una pirámide");
         System.out.print("Introduce la altura de la pirámide: ");
         int altura = Integer.parseInt(System.console().readLine());
-        System.out.print("Introduzca el carácter de relleno: ");
-        String caracter = ""+System.console().readLine().charAt(0);
-        piramide(altura, caracter, false);
+        piramide(altura, false);
     }
 }
