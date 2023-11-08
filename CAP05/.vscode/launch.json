@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ej61",
+            "request": "launch",
+            "mainClass": "Ej61",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
             "name": "Ej58",
             "request": "launch",
             "mainClass": "Ej58",

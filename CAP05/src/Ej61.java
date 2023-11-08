@@ -4,9 +4,18 @@ public class Ej61 {
             for(int j=1;j<=(altura-i);j++){
                 System.out.print(" ");
             }
-            for(int j=1;j<=(2*i-1);j++){
+            if (i>1) {
                 System.out.print("***");
             }
+            String relleno = (i==1)?("*****"):(i==altura+1)?("***"):(" ");
+            if (i>1){
+                for(int j=2;j<=2*i-2;j++){
+                    System.out.print(relleno);
+                }
+                System.out.print("***");
+            }
+            else if (i==1)
+                System.out.print("*****");
             System.out.println("");
         }
     }
