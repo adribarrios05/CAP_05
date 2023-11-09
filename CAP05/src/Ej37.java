@@ -39,13 +39,13 @@ public class Ej37 {
         while(!salida) {
             if(valor>=0){
                 digito=valor%10;
-                for(int i=1;i<=digito;i++){
+                for(int i=1;i<=digito-1;i++){
                     digito = valor%10;
                     valor = valor/10;
                     for(int j=1;j<=digito;j++){
                         System.out.print("|");
                     }
-                    if (i <= digito && valor>0) {
+                    if (valor>0) {
                         System.out.print("-");
                     }
                 }

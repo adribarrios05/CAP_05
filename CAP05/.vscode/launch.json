@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ej69",
+            "request": "launch",
+            "mainClass": "Ej69",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej68",
+            "request": "launch",
+            "mainClass": "Ej68",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej67",
+            "request": "launch",
+            "mainClass": "Ej67",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej66",
+            "request": "launch",
+            "mainClass": "Ej66",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej65",
+            "request": "launch",
+            "mainClass": "Ej65",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej64",
+            "request": "launch",
+            "mainClass": "Ej64",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej63",
+            "request": "launch",
+            "mainClass": "Ej63",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
+            "name": "Ej62",
+            "request": "launch",
+            "mainClass": "Ej62",
+            "projectName": "CAP05_a1044a25"
+        },
+        {
+            "type": "java",
             "name": "Ej61",
             "request": "launch",
             "mainClass": "Ej61",

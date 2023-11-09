@@ -1,10 +1,10 @@
 public class Ej32 {
     public static long voltea (long valor){
-        long alreves = 0;
+        int alreves = 0;
         boolean salida = false;
         while(!salida){
             int digito = (int)valor%10;
-            System.out.print(digito);
+            alreves = alreves*10+digito;
             if(valor<10)
                 salida = true;
             else
@@ -17,10 +17,14 @@ public class Ej32 {
         boolean salida = false;
         while(!salida){
             int digito = (int)(valor%10);
-            if(digito%2 == 0)
-                res+=digito;
+            if(digito%2 == 0){
+                res+=digito+" ";
+                valor = valor/10;
+            }
             else
                 valor = valor/10;
+            if (valor==0)
+                salida = true;
             }
         return res;
         }
@@ -39,11 +43,21 @@ public class Ej32 {
         return valor;
     }
     public static int sumarPares(long valor){
-        int suma = 0;
+        int res=0;
         boolean salida = false;
-        return suma;
-    }
-    
+        while(!salida){
+            int digito = (int)(valor%10);
+            if(digito%2 == 0){
+                res+=digito;
+                valor = valor/10;
+            }
+            else
+                valor = valor/10;
+            if (valor==0)
+                salida = true;
+            }
+        return res;
+        }
     public static void main(String[] args) {
         long valor = solicitaValor();
         valor = voltea(valor);

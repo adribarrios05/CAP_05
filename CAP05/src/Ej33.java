@@ -15,14 +15,19 @@ public class Ej33 {
     }
     public static void pintarU(int altura){
         for(int i=1; i<=altura; i++){
-            System.out.println("* ");
             for(int j=1;j<=altura;j++){
-                System.out.print(" ");
+                if((i==altura || j==1 || j==altura) || (i!=altura && j!=1))
+                    System.out.print("*");
+                else if ((i==altura && j==1) || (i==altura && j==altura))
+                    System.out.print(" ");
+                else
+                    System.out.print(" ");
             }
-            System.out.print("* ");
+            System.out.println("");
         }
     }
     public static void main(String[] args) {
         int altura = solicitaValor("Introduzca la altura", null);
+        pintarU(altura);
     }
 }

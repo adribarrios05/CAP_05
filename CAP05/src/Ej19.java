@@ -20,6 +20,5 @@ public class Ej19 {
         System.out.print("Introduzca el carácter de relleno: ");
         String caracter = ""+System.console().readLine().charAt(0);
         piramide(altura, caracter, false);
-        piramide(altura, caracter, true);
     }
 }
